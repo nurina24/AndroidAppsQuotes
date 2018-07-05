@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="91dp"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_keyboard_key_1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button2"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_keyboard_key_of_number_4_latest" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button3"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_keyboard_key_5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button5"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_key_number_7" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button6"
+        android:layout_alignTop="@+id/button3"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_number_3_key_on_keyboard" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button8"
+        android:layout_below="@+id/button3"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_key_6_of_a_keyboard" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignTop="@+id/button1"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_keyboard_key_with_number_2" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="103dp"
+        android:layout_height="101dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/button5"
+        android:background="@color/fbutton_color_transparent"
+        android:drawableTop="@drawable/ic_number_8_key_on_keyboard" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Please Choose the Numbers "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
